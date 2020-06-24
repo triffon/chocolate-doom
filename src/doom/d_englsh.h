@@ -76,7 +76,7 @@
 //
 #define GOTARMOR	"Picked up the armor."
 #define GOTMEGA	"Picked up the MegaArmor!"
-#define GOTHTHBONUS	"Picked up a health bonus."
+#define GOTHTHBONUS	"Picked up a super health bonus."
 #define GOTARMBONUS	"Picked up an armor bonus."
 #define GOTSTIM	"Picked up a stimpack."
 #define GOTMEDINEED	"Picked up a medikit that you REALLY need!"

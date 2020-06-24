@@ -373,7 +373,7 @@ P_TouchSpecialThing
 	
 	// bonus items
       case SPR_BON1:
-	player->health++;		// can go over 100%
+	player->health += 5;		// can go over 100%
 	if (player->health > deh_max_health)
 	    player->health = deh_max_health;
 	player->mo->health = player->health;
