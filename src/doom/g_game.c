@@ -106,6 +106,8 @@ int             gamemap;
 
 int             timelimit;
 
+boolean         bobbing;                // control weapon bobbing
+
 boolean         paused; 
 boolean         sendpause;             	// send a pause event next tic 
 boolean         sendsave;             	// send a save event next tic 

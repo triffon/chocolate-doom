@@ -95,6 +95,9 @@ extern  int		gamemap;
 // If non-zero, exit the level after this number of minutes
 extern  int             timelimit;
 
+// Control weapon bobbing, true by default
+extern  boolean         bobbing;
+
 // Nightmare mode flag, single player.
 extern  boolean         respawnmonsters;
 

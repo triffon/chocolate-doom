@@ -1804,6 +1804,14 @@ void D_DoomMain (void)
 	timelimit = 20;
     }
 
+    bobbing = true;
+    // Adding new parameter for turning off bobbing
+    p = M_CheckParm ("-nobob");
+    if (p)
+    {
+        bobbing = false;
+    }
+
     //!
     // @category game
     // @arg [<x> <y> | <xy>]
